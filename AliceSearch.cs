@@ -6,7 +6,7 @@ string aliceQuote = (
 );
 
 Console.WriteLine("What word do you wish to find:");
-string searchTerm = Console.ReadLine();
+string searchTerm  Console.ReadLine();
 
 string aliceLowerQuote = aliceQuote.ToLowerInvariant();
 bool foundTerm = aliceLowerQuote.Contains(searchTerm.ToLowerInvariant());
